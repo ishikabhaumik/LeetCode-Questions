@@ -4,7 +4,7 @@
 // Return true if you can reach the last index, or false otherwise.
 
 
-// #Intution: Make greedy choice at every index. So how iterate and check if you make the jump will you be able to jump more than you have jumped till now. If no then return false that means you will never reach that index. Else update the max jump with i+current_jump. return true outside the loop.
+// #Intution: Make greedy choice at every index. So how iterate and check if current index is more than you have jumped till now. If no then return false that means you will never reach that index. Else update the max jump with i+current_jump. return true outside the loop.
 
 class Solution {
 public:
